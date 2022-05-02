@@ -4,7 +4,7 @@ title: Mermaid diagrams
 
 # Mermaid diagrams
 
-You can insert [mermaid](https://mermaidjs.github.io/) charts and diagrams directly into markdown. This allows you to adhere to the docs-as-code philosophy.  To insert a diagram, create a code block and specify the  `mermaid` language.
+You can insert [mermaid](https://mermaidjs.github.io/) charts and diagrams directly into markdown. This allows you to adhere to the docs-as-code philosophy. To insert a diagram, create a code block and specify the `mermaid` language.
 
 A [live mermaid diagram editor](https://mermaid.live/) can be helpful when writing diagrams.
 
@@ -25,6 +25,26 @@ graph LR
     Install --> Markdown --> Paths --> Mermaid --> ?
 ```
 ````
+
+```mermaid
+graph LR
+    Install --> Markdown --> Paths --> Mermaid --> ?
+```
+
+```mermaid
+graph LR
+    Install --> Markdown --> Paths --> Mermaid --> ?
+```
+
+hello here some text
+
+```tab1
+some code
+```
+
+```tab2
+more code
+```
 
 ## Edit the flowchart
 

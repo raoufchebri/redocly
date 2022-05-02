@@ -16,85 +16,72 @@ import {
   H2,
   SectionHeader,
   NavBar,
-} from '@redocly/developer-portal/ui';
+} from "@redocly/developer-portal/ui";
 
-import icon1 from './images/icon1.png';
-import launchFastIcon from './images/launch-fast.svg';
-import icon3 from './images/icon3.png';
-import bookManagementIcon from './images/book-management.svg';
-import foundOrPrivate from './images/found-or-private.svg';
+import learn from "./images/learn.png";
+import scale from "./images/scale.png";
+import build from "./images/build.png";
+import bookManagementIcon from "./images/book-management.svg";
+import foundOrPrivate from "./images/found-or-private.svg";
 
 export default LandingLayout;
 
 <Jumbotron>
   <NavBar location={props.location} standalone={false} />
-  <H1>Redocly training</H1>
-  <H2>A starter developer portal with training exercises</H2>
+  <H1>Monstrously Fast + Scalable NoSQL</H1>
+  <H2>ScyllaDB developer portal with training exercises</H2>
   <Flex p={20} justifyContent="center">
-    {/* <Button size="xlarge" to="https://app.redoc.ly">
-      Redocly app
-    </Button> */}
-     <Button variant="outlined" size="xlarge" to="developer-portal/index.md">
+    <Button variant="outlined" size="xlarge" to="docs/index.mdx">
       Get started
     </Button>
-    {/* <Button variant="outlined" size="xlarge" to="https://redoc.ly/docs">
+    <Button variant="outlined" size="xlarge" to="/docs/learn/whats-scylladb/">
       Docs
-    </Button> */}
+    </Button>
   </Flex>
 </Jumbotron>
 <Box my={25}>
   <SectionHeader>
-    Create your <Emphasis> developer portal </Emphasis> today!
+    Get the most out of your <Emphasis> NoSQL </Emphasis> database today!
   </SectionHeader>
   <FlexSection justifyContent="space-around" flexWrap="wrap">
-    <ThinTile to="developer-portal/index.md" icon={icon1} header="Rock">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo
-        invenire aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril
-        labitur an usu.Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea
-        justo invenire aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing.
+    <ThinTile to="developer-portal/index.md" icon={learn} header="Learn">
+      Discover ScyllaDB's core concepts.
     </ThinTile>
-    <ThinTile to="developer-portal/index.md" icon={launchFastIcon} header="Paper">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
+    <ThinTile to="developer-portal/index.md" icon={build} header="Build">
+      Create your first ScyllaDB powered application.
     </ThinTile>
-    <ThinTile to="contact.mdx" icon={icon3} header="Scissors">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
+    <ThinTile to="contact.mdx" icon={scale} header="Scale">
+      Optimize your application and apply best practices.
     </ThinTile>
   </FlexSection>
-  {/* <Jumbotron parallaxEffect bgImage={icon1}>
+  <Jumbotron parallaxEffect>
     <H1>Tutorials</H1>
     <H2>Get setup faster...</H2>
-  </Jumbotron> */}
+  </Jumbotron>
   <SectionHeader>
     <Emphasis>Need help? </Emphasis>
     Try our training exercises.
   </SectionHeader>
   <FlexSection justifyContent="space-around" flexWrap="wrap">
-    <WideTile to="developer-portal/index.md" header="Rock">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
+    <WideTile to="docs/index.mdx" header="Rock">
+      Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea
+      justo invenire aliquando. Usu modo suavitate ea. Et sed labitur epicurei
+      adipiscing. Nibh zril labitur an usu.
     </WideTile>
     <WideTile to="developer-portal/index.md" header="Paper">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
+      Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea
+      justo invenire aliquando. Usu modo suavitate ea. Et sed labitur epicurei
+      adipiscing. Nibh zril labitur an usu.
     </WideTile>
     <WideTile to="developer-portal/index.md" header="Scissors">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
+      Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea
+      justo invenire aliquando. Usu modo suavitate ea. Et sed labitur epicurei
+      adipiscing. Nibh zril labitur an usu.
     </WideTile>
     <WideTile to="developer-portal/index.md" header="Go">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
+      Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea
+      justo invenire aliquando. Usu modo suavitate ea. Et sed labitur epicurei
+      adipiscing. Nibh zril labitur an usu.
     </WideTile>
   </FlexSection>
 </Box>
-

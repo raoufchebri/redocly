@@ -4,6 +4,7 @@ description: GitHub-flavored markdown example
 toc:
   enable: true
 ---
+
 # GitHub-flavored markdown example
 
 These exercises assume you have [basic markdown knowledge](https://docs.redoc.ly/developer-portal/markdown/).
@@ -43,9 +44,8 @@ You can create a link to it.
 
 To do that, you can edit this `markdown.md` file and remove the back ticks around this example.
 
-```markdown
+markdown
 [My first plain markdown page!](plain.md)
-```
 
 (And save your file.)
 
@@ -59,6 +59,7 @@ Then you can click on your link.
 #### Link to it from navigation
 
 You can also link to your page from various navigation elements:
+
 - top navigation
 - footer navigation
 - sidebar navigation
@@ -70,6 +71,7 @@ Linking to it from navigation is the subject of other training exercises.
 ## Add an image to your markdown page
 
 You can copy/paste this into your page.
+
 ```markdown
 ![markdown file changed](./images/markdown-file-changed.png)
 ```
@@ -87,14 +89,21 @@ The `../` moves up to the parent directory.
 And `../../` moves up two levels.
 And so on.
 
-
 Training exercise accomplished?
 
 ## Let's add a video too
 
 Find a video online and copy the "embed" code (or use this below).
+
 ```html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NcEHOlnAY6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/NcEHOlnAY6A"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 ```
 
 Then paste it in the markdown and voila!
@@ -126,7 +135,6 @@ danger
 :::attention
 attention
 :::
-
 
 ## Review
 

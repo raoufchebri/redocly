@@ -1,0 +1,34 @@
+---
+title: Quickstart
+---
+
+import { WideTile, FlexSection } from "@redocly/developer-portal/ui";
+
+import learn from "../images/learn.png";
+import scale from "../images/scale.png";
+import build from "../images/build.png";
+
+# Quickstart
+
+## Create an account on ScyllaDB Cloud
+
+<iframe
+  width="100%"
+  height="480"
+  src="https://www.youtube.com/embed/jnWDMiuy9hM"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+## Start building your application
+
+<FlexSection justifyContent="space-between" flexWrap="wrap">
+  <WideTile to="./learn/core-concepts.md" icon={learn} header="Read Docs">
+    Build a Todo App.
+  </WideTile>
+  <WideTile to="./quickstart.mdx" icon={build} header="Use Quickstart">
+    Build an IoT.
+  </WideTile>
+</FlexSection>

@@ -12,11 +12,9 @@ export const theme = {
 The included `theme.ts` includes all of the configuration options (most are commented out as default settings with two slashes `//`).
 Uncomment them to override the theme.
 
-
 ## Change the primary color
 
 Find this section of the theme file.
-
 
 ```ts
   colors: {
